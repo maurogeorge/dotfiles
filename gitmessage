@@ -3,7 +3,7 @@
 # 72-character wrapped longer description.
 #
 # * Capitalized subject and begin of longer description
-# * use “add”, “remove”, “update”, “refactor”, “fix”
+# * Use imperative: “add”, “remove”, “update”, “refactor”, “fix”
 # * Longer description should answer:
 #   * Why was this change necessary?
 #   * How does it address the problem?
