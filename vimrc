@@ -26,6 +26,7 @@ Bundle 'tomtom/tcomment_vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'bling/vim-airline'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'croaky/vim-colors-github'
 
 
 syntax enable                     " Turn on syntax highlighting.
