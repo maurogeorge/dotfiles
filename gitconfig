@@ -1,23 +1,25 @@
 [user]
-	name = Mauro George
-	email = maurogot@gmail.com
+  name = Mauro George
+  email = maurogot@gmail.com
 [github]
-	user = maurogeorge
+  user = maurogeorge
 [core]
-	editor = vim
+  editor = vim
 [color]
-	ui = true
+  ui = true
 [alias]
-	co = checkout
-	ci = commit
-	st = status -sb
-	br = branch
-	wdiff = diff --word-diff
-	lg = log --graph --pretty=format:'%Cred%h%Creset %Cblue[%an]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+  co = checkout
+  ci = commit
+  st = status -sb
+  br = branch
+  wdiff = diff --word-diff
+  lg = log --graph --pretty=format:'%Cred%h%Creset %Cblue[%an]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
 [help]
-	autocorrect = 1
-	format = man
+  autocorrect = 1
+  format = man
 [push]
-	default = current
+  default = current
 [rerere]
-	enabled = true
+  enabled = true
+[commit]
+  template = ~/.gitmessage

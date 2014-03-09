@@ -1,0 +1,11 @@
+# 50-character subject line
+#
+# 72-character wrapped longer description.
+#
+# * Capitalized subject and begin of longer description
+# * use “add”, “remove”, “update”, “refactor”, “fix”
+# * Longer description should answer:
+#   * Why was this change necessary?
+#   * How does it address the problem?
+#   * Are there any side effects?
+# * Include a link to the ticket, if any.
