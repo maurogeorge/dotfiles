@@ -35,3 +35,11 @@ $ rcup
 
 Uses with `$ rcup -v` to a more verbose output.
 
+## Vim
+
+Open "Monaco-Powerline.otf" and click "Install font" to install Powerline's font which supports fancy characters.
+
+```bash
+$ open Monaco-Powerline.otf
+```
+
