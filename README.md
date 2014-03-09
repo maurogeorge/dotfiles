@@ -17,11 +17,11 @@ $ brew bundle .dotfiles/Brewfile
 Install the dotfiles
 
 ```bash
-$ rcup -d .dotfiles -x Brewfile -x README.md
+$ rcup -d .dotfiles -x Brewfile -x README.md -x Monaco-Powerline.otf
 ```
 
 This will create symlinks for config files in your home directory. The
-`-x` options, which exclude the `Brewfile` and `README.md` files, are
+`-x` options, which exclude the `Brewfile`, `README.md` and `Monaco-Powerline.otf` files, are
 needed during installation but can be skipped once the `.rcrc`
 configuration file is symlinked in.
 

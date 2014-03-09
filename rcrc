@@ -1,2 +1,2 @@
-EXCLUDES="README.md Brewfile"
+EXCLUDES="README.md Brewfile Monaco-Powerline.otf"
 DOTFILES_DIRS="$HOME/.dotfiles"

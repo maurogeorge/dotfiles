@@ -90,7 +90,6 @@ map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
 " Airline options
-" Font: https://github.com/pedrofranceschi/vimfiles/raw/master/Monaco-Powerline.otf
 let g:airline_powerline_fonts = 1
 
 " gitgutter options
