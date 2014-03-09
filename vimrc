@@ -1,33 +1,6 @@
-set nocompatible                  " Must come first because it changes other options.
-
-" ========================================================================
-" Vundle stuff
-" ========================================================================
-filetype off                   " required!
-
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-" Let Vundle manage Vundle (required)!
-Bundle 'gmarik/vundle'
-
-" My bundles
-Bundle 'kien/ctrlp.vim'
-Bundle 'scrooloose/syntastic'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-rails'
-Bundle 'scrooloose/nerdtree'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'thoughtbot/vim-rspec'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-endwise'
-Bundle 'tomtom/tcomment_vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'bling/vim-airline'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'croaky/vim-colors-github'
-
+if filereadable(expand("~/.vimrc.bundles"))
+  source ~/.vimrc.bundles
+endif
 
 syntax enable                     " Turn on syntax highlighting.
 filetype plugin indent on         " Turn on file type detection.
