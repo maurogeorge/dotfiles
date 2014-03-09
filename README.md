@@ -27,6 +27,8 @@ configuration file is symlinked in.
 
 ## Usage
 
+Make all changes on the `.dotfiles` dir and commit as usual.
+
 Update the dotfiles with:
 
 ```bash
