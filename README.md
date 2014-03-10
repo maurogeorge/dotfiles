@@ -2,7 +2,7 @@
 
 ## Install
 
-On the root dir.
+On the home dir.
 
 ```bash
 $ git clone git://github.com/maurogeorge/dotfiles.git .dotfiles
