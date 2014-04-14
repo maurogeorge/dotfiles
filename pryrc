@@ -1,6 +1,4 @@
-Pry.config.editor = "vim"
-
-require "rubygems"
 require "awesome_print"
 
-Pry.print = proc { |output, value| output.puts value.ai }
+Pry.config.editor = "vim"
+AwesomePrint.pry!
