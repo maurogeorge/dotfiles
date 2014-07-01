@@ -63,6 +63,10 @@ map <Leader>s :call RunNearestSpec()<CR>
 map <Leader>l :call RunLastSpec()<CR>
 map <Leader>a :call RunAllSpecs()<CR>
 
+" Moving selection
+xmap <C-k> :mo'<-- <CR> gv
+xmap <C-j> :mo'>+ <CR> gv
+
 " Airline options
 let g:airline_powerline_fonts = 1
 
