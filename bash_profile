@@ -2,13 +2,9 @@
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-# Set git autocompletion
-if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
-  . /usr/local/git/contrib/completion/git-completion.bash
-fi
-
-if [ -f /opt/local/etc/bash_completion ]; then
-    . /opt/local/etc/bash_completion
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
 fi
 
 export GREP_OPTIONS="--color=auto"
