@@ -5,6 +5,7 @@
   user = maurogeorge
 [core]
   editor = vim
+  excludesfile = ~/.gitignore
 [color]
   ui = true
 [alias]
