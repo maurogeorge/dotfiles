@@ -27,3 +27,5 @@
   template = ~/.gitmessage
 [heroku]
   account = personal
+[rebase]
+	autosquash = true
