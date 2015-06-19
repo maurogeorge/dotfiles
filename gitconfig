@@ -28,4 +28,4 @@
 [heroku]
   account = personal
 [rebase]
-	autosquash = true
+  autosquash = true
