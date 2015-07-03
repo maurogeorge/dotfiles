@@ -29,3 +29,5 @@
   account = personal
 [rebase]
   autosquash = true
+[init]
+  templatedir = ~/.git_template
