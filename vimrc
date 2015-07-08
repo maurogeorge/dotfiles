@@ -93,3 +93,7 @@ let g:Tlist_Ctags_Cmd="ctags --exclude='*.js'"
 
 " Index ctags from any project, including those outside Rails
 map <Leader>ct :!ctags -R .<CR>
+
+" Make it obvious where 80 characters is
+set textwidth=80
+set colorcolumn=+1
