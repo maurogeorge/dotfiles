@@ -3,6 +3,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
+# rbenv
+eval "$(rbenv init -)"
+
 # recommended by brew doctor
 export PATH=/usr/local/bin:$PATH
 
