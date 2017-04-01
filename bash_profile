@@ -6,9 +6,6 @@ fi
 # rbenv
 eval "$(rbenv init -)"
 
-# recommended by brew doctor
-export PATH=/usr/local/bin:$PATH
-
 export GREP_OPTIONS="--color=auto"
 export GREP_COLOR="4;33"
 export CLICOLOR="auto"
