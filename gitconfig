@@ -16,6 +16,7 @@
   wdiff = diff --word-diff
   lg = log --graph --pretty=format:'%Cred%h%Creset %Cblue[%an]%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
   co-pr = !sh -c 'git fetch origin pull/$1/head:pr/$1 && git checkout pr/$1' -
+  pf = push --force-with-lease
 [help]
   autocorrect = 1
   format = man
