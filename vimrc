@@ -107,5 +107,17 @@ let g:rails_projections = {
       \    "command": "service",
       \    "template": ["class {camelcase|capitalize|colons}", "end"],
       \    "test": ["spec/services/{}_spec.rb"]
+      \  },
+      \  "spec/factories/*.rb": {
+      \    "command": "factory",
+      \    "alternate": "app/models/{singular}.rb",
+      \    "related": "db/schema.rb#{}",
+      \    "template": [
+      \      "FactoryGirl.define do",
+      \      "\tfactory :{singular} do",
+      \      "\tend",
+      \      "end"
+      \    ],
+      \    "affinity": "collection"
       \  }
       \}
