@@ -100,3 +100,12 @@ set textwidth=80
 set colorcolumn=+1
 highlight ColorColumn ctermbg=235 guibg=#2c2d27
 let &colorcolumn=join(range(81,335),",")
+
+" vim-rails projections
+let g:rails_projections = {
+      \  "app/services/*.rb": {
+      \    "command": "service",
+      \    "template": ["class {camelcase|capitalize|colons}", "end"],
+      \    "test": ["spec/services/{}_spec.rb"]
+      \  }
+      \}
