@@ -33,3 +33,7 @@ GIT_PS1_SHOWUNTRACKEDFILES=true
 GIT_STATUS='$(__git_ps1 "(%s)")'
 
 PS1="${BLUE}\u${GREEN}@${CYAN}\h${GREEN}:${RED}\W${YELLOW}${GIT_STATUS}${GREEN}\$${NO_COLOR} "
+
+# asdf-vm
+source $HOME/.asdf/asdf.sh
+source $HOME/.asdf/completions/asdf.bash
