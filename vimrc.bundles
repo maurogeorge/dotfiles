@@ -1,37 +1,31 @@
 set nocompatible                  " Must come first because it changes other options.
 
 " ========================================================================
-" Vundle stuff
+" vim-plug stuff
 " ========================================================================
-filetype off                   " required!
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/bundle')
 
-" Let Vundle manage Vundle (required)!
-Plugin 'VundleVim/Vundle.vim'
-
-" My bundles
-Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'scrooloose/syntastic'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-rails'
-Plugin 'scrooloose/nerdtree'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'elixir-lang/vim-elixir'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-endwise'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'bling/vim-airline'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'slim-template/vim-slim'
-Plugin 'godlygeek/tabular'
-Plugin 'tpope/vim-abolish'
-Plugin 'pbrisbin/vim-mkdir'
-Plugin 'rizzatti/dash.vim'
+" My bundles via Github repos
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'scrooloose/syntastic'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'scrooloose/nerdtree'
+Plug 'kchmck/vim-coffee-script'
+Plug 'thoughtbot/vim-rspec'
+Plug 'elixir-lang/vim-elixir'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-endwise'
+Plug 'tomtom/tcomment_vim'
+Plug 'tpope/vim-fugitive'
+Plug 'bling/vim-airline'
+Plug 'airblade/vim-gitgutter'
+Plug 'slim-template/vim-slim'
+Plug 'godlygeek/tabular'
+Plug 'tpope/vim-abolish'
+Plug 'pbrisbin/vim-mkdir'
+Plug 'rizzatti/dash.vim'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " required
+call plug#end() " required
