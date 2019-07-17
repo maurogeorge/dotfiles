@@ -75,7 +75,7 @@ let g:airline_powerline_fonts = 1
 
 " gitgutter options
 highlight clear SignColumn
-let g:gitgutter_sign_column_always = 1
+set signcolumn=yes
 
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
