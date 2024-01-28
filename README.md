@@ -5,7 +5,7 @@
 On the home dir.
 
 ```bash
-$ git clone git://github.com/maurogeorge/dotfiles.git .dotfiles
+$ git clone https://github.com/maurogeorge/dotfiles.git .dotfiles
 ```
 
 Install [rcm](https://github.com/thoughtbot/rcm)
