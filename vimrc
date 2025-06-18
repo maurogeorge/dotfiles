@@ -67,6 +67,10 @@ nnoremap <silent> <Leader>l :TestLast<CR>
 nnoremap <silent> <Leader>a :TestSuite<CR>
 nnoremap <silent> <Leader>gt :TestVisit<CR>
 
+" vim-test options
+" Use https://www.doppler.com/
+let test#ruby#rspec#executable = 'doppler run -- bundle exec rspec'
+
 " Moving selection
 xmap <C-k> :mo'<-- <CR> gv
 xmap <C-j> :mo'>+ <CR> gv
