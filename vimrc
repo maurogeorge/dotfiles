@@ -68,6 +68,7 @@ nnoremap <silent> <Leader>a :TestSuite<CR>
 nnoremap <silent> <Leader>gt :TestVisit<CR>
 
 " vim-test options
+let test#strategy = 'vimterminal'
 " Use https://www.doppler.com/
 let test#ruby#rspec#executable = 'doppler run -- bundle exec rspec'
 
