@@ -11,3 +11,6 @@ fi
 . "$HOME/.asdf/asdf.sh"
 fpath=(${ASDF_DIR}/completions $fpath)
 autoload -Uz compinit && compinit
+
+# Claude Code
+export PATH="$HOME/.local/bin:$PATH"
